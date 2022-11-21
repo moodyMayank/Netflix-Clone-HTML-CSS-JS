@@ -8,4 +8,3 @@
 
 1. Setup the Project
 2. Get TMDB API for data
-3.
