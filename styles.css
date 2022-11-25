@@ -1,11 +1,43 @@
 /* Normalise CSS  */
 body {
+  /* background-color: black; */
   padding: 0;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* Header CSS */
 header {
   background-color: transparent;
+}
+
+.header-brand {
+  max-width: 100px;
+}
+
+.left-container,
+.right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.right-container svg {
+  margin-right: 20px;
 }
