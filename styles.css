@@ -1,6 +1,11 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;  
+  --greyish: #cfcfcf;
+}
 /* Normalise CSS  */
 body {
-  /* background-color: black; */
+  background-color: var(--black); 
   padding: 0;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -10,6 +15,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* background-color: gray; */
 }
 
 /* Header CSS */
@@ -35,9 +41,23 @@ header {
 }
 
 .nav-item {
-  margin-right: 10px;
+  margin-right: 20px;
+  color: var(--greyish);
+  opacity: .80;
+  font-weight: 500;
+}
+
+.nav-item:hover, .active{
+  color: var(--white);
+  opacity: 1;
+  
+  cursor: pointer;
 }
 
 .right-container svg {
+  color: var(--white);
   margin-right: 20px;
 }
+
+
+/* RESPONSIVE CSS */

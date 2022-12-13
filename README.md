@@ -19,6 +19,12 @@
 - Normalizing CSS :
   - By default we have
 
+- Adding favicon :
+  - <link rel="icon" type="image/x-icon" href="Link to image">
+
+- Opacity :
+  - 
+
 ## Task List :
 
 1. Setup the Project
